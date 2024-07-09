@@ -1,0 +1,189 @@
+/* PARALLAX.CSS */
+/*CSS created by Christopher Jay De Claro*/
+/*github.com/cjdeclaro*/
+
+/*Key Art default settings*/
+
+.keyart,
+.keyart_layer {
+	height: 1000px;
+}
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+/* Modified .keyart_layer By Edrian Rosero */
+.keyart_layer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.keyart_layer.parallax {
+	position: fixed;
+}
+
+.main-content {
+	width: 100%;
+	position: absolute;
+	z-index: 200;
+}
+
+/*ADD OR REMOVE LAYERS AS NEEDED*/
+
+#keyart-0 {
+	background-image: url(https://raw.githubusercontent.com/EdrianRosero/Parallax/main/img/Parallax%200.png);
+	background-color: #30649c;
+}
+
+#keyart-1 {
+	background-image: url(https://raw.githubusercontent.com/EdrianRosero/Parallax/main/img/Parallax%201.png);
+}
+
+#keyart-2 {
+	background-image: url(https://raw.githubusercontent.com/EdrianRosero/Parallax/main/img/Parallax%202.png);
+}
+
+#keyart-3 {
+	background-image: url(https://raw.githubusercontent.com/EdrianRosero/Parallax/main/img/Parallax%203.png);
+}
+
+#keyart-4 {
+	background-image: url(https://raw.githubusercontent.com/EdrianRosero/Parallax/main/img/Parallax%204.png);
+}
+
+#keyart-5 {
+	background-image: url(https://raw.githubusercontent.com/EdrianRosero/Parallax/main/img/Parallax%205.png);
+}
+
+#keyart-6 {
+	background-image: url(https://raw.githubusercontent.com/EdrianRosero/Parallax/main/img/Parallax%206.png);
+}
+
+#keyart-scrim {
+	opacity: 0;
+}
+
+/* ADDED CSS FOR NEW CONTENT */
+
+.illustration {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 300;
+  }
+
+#illustration-1 {
+	background-image: url(https://raw.githubusercontent.com/EdrianRosero/Parallax/main/img/MainContent.png);
+}
+
+
+
+.bubbles1 {
+	content: " ";
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border-radius: 50%;
+	box-shadow: 571px 173px #a2d9ff, 1732px 143px #a2d9ff,
+	1745px 454px #a2d9ff, 234px 784px #a2d9ff, 1793px 1123px #a2d9ff,
+	1076px 504px #a2d9ff, 633px 601px #a2d9ff, 350px 630px #a2d9ff,
+	1164px 782px #a2d9ff, 76px 690px #a2d9ff, 1825px 701px #a2d9ff,
+	1646px 578px #a2d9ff, 544px 293px #a2d9ff, 445px 1061px #a2d9ff,
+	928px 47px #a2d9ff, 168px 1410px #a2d9ff, 777px 782px #a2d9ff,
+	1235px 1941px #a2d9ff, 104px 1690px #a2d9ff, 1167px 1338px #a2d9ff,
+	345px 1652px #a2d9ff, 1682px 1196px #a2d9ff, 1995px 494px #a2d9ff,
+	428px 798px #a2d9ff, 340px 1623px #a2d9ff, 605px 349px #a2d9ff,
+	1339px 1344px #a2d9ff, 1102px 1745px #a2d9ff, 1592px 1676px #a2d9ff,
+	419px 1024px #a2d9ff, 630px 1033px #a2d9ff, 1995px 1644px #a2d9ff,
+	1092px 712px #a2d9ff, 1355px 606px #a2d9ff, 622px 1881px #a2d9ff,
+	1481px 621px #a2d9ff, 19px 1348px #a2d9ff, 864px 1780px #a2d9ff,
+	442px 1136px #a2d9ff, 67px 712px #a2d9ff, 89px 1406px #a2d9ff,
+	275px 321px #a2d9ff, 592px 630px #a2d9ff, 1012px 1690px #a2d9ff,
+	1749px 23px #a2d9ff, 94px 1542px #a2d9ff, 1201px 1657px #a2d9ff,
+	1505px 692px #a2d9ff, 1799px 601px #a2d9ff, 656px 811px #a2d9ff,
+	701px 597px #a2d9ff, 1202px 46px #a2d9ff, 890px 569px #a2d9ff,
+	1613px 813px #a2d9ff, 223px 252px #a2d9ff, 983px 1093px #a2d9ff,
+	726px 1029px #a2d9ff, 1764px 778px #a2d9ff, 622px 1643px #a2d9ff,
+	174px 1559px #a2d9ff, 212px 517px #a2d9ff, 340px 505px #a2d9ff,
+	1700px 39px #a2d9ff, 1768px 516px #a2d9ff, 849px 391px #a2d9ff,
+	228px 1824px #a2d9ff, 1119px 1680px #a2d9ff, 812px 1480px #a2d9ff,
+	1438px 1585px #a2d9ff, 137px 1397px #a2d9ff, 1080px 456px #a2d9ff,
+	1208px 1437px #a2d9ff, 857px 281px #a2d9ff, 1254px 1306px #a2d9ff,
+	987px 990px #a2d9ff, 1655px 911px #a2d9ff, 1102px 1216px #a2d9ff,
+	1807px 1044px #a2d9ff, 660px 435px #a2d9ff, 299px 678px #a2d9ff,
+	1193px 115px #a2d9ff, 918px 290px #a2d9ff, 1447px 1422px #a2d9ff,
+	91px 1273px #a2d9ff, 108px 223px #a2d9ff, 146px 754px #a2d9ff,
+	461px 1446px #a2d9ff, 1004px 391px #a2d9ff, 1529px 516px #a2d9ff,
+	1206px 845px #a2d9ff, 347px 583px #a2d9ff, 1102px 1332px #a2d9ff,
+	709px 1756px #a2d9ff, 1972px 248px #a2d9ff, 1669px 1344px #a2d9ff,
+	1132px 406px #a2d9ff, 320px 1076px #a2d9ff, 126px 943px #a2d9ff,
+	263px 604px #a2d9ff, 1546px 692px #a2d9ff;	
+	animation: animBubbles 50s linear infinite;
+  }
+
+  .bubbles2 {
+	content: " ";
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border-radius: 50%;
+	box-shadow: 571px 173px #a2d9ff, 1732px 143px #a2d9ff,
+	1745px 454px #a2d9ff, 234px 784px #a2d9ff, 1793px 1123px #a2d9ff,
+	1076px 504px #a2d9ff, 633px 601px #a2d9ff, 350px 630px #a2d9ff,
+	1164px 782px #a2d9ff, 76px 690px #a2d9ff, 1825px 701px #a2d9ff,
+	1646px 578px #a2d9ff, 544px 293px #a2d9ff, 445px 1061px #a2d9ff,
+	928px 47px #a2d9ff, 168px 1410px #a2d9ff, 777px 782px #a2d9ff,
+	1235px 1941px #a2d9ff, 104px 1690px #a2d9ff, 1167px 1338px #a2d9ff,
+	345px 1652px #a2d9ff, 1682px 1196px #a2d9ff, 1995px 494px #a2d9ff,
+	428px 798px #a2d9ff, 340px 1623px #a2d9ff, 605px 349px #a2d9ff,
+	1339px 1344px #a2d9ff, 1102px 1745px #a2d9ff, 1592px 1676px #a2d9ff,
+	419px 1024px #a2d9ff, 630px 1033px #a2d9ff, 1995px 1644px #a2d9ff,
+	1092px 712px #a2d9ff, 1355px 606px #a2d9ff, 622px 1881px #a2d9ff,
+	1481px 621px #a2d9ff, 19px 1348px #a2d9ff, 864px 1780px #a2d9ff,
+	442px 1136px #a2d9ff, 67px 712px #a2d9ff, 89px 1406px #a2d9ff,
+	275px 321px #a2d9ff, 592px 630px #a2d9ff, 1012px 1690px #a2d9ff,
+	1749px 23px #a2d9ff, 94px 1542px #a2d9ff, 1201px 1657px #a2d9ff,
+	1505px 692px #a2d9ff, 1799px 601px #a2d9ff, 656px 811px #a2d9ff,
+	701px 597px #a2d9ff, 1202px 46px #a2d9ff, 890px 569px #a2d9ff,
+	1613px 813px #a2d9ff, 223px 252px #a2d9ff, 983px 1093px #a2d9ff,
+	726px 1029px #a2d9ff, 1764px 778px #a2d9ff, 622px 1643px #a2d9ff,
+	174px 1559px #a2d9ff, 212px 517px #a2d9ff, 340px 505px #a2d9ff,
+	1700px 39px #a2d9ff, 1768px 516px #a2d9ff, 849px 391px #a2d9ff,
+	228px 1824px #a2d9ff, 1119px 1680px #a2d9ff, 812px 1480px #a2d9ff,
+	1438px 1585px #a2d9ff, 137px 1397px #a2d9ff, 1080px 456px #a2d9ff,
+	1208px 1437px #a2d9ff, 857px 281px #a2d9ff, 1254px 1306px #a2d9ff,
+	987px 990px #a2d9ff, 1655px 911px #a2d9ff, 1102px 1216px #a2d9ff,
+	1807px 1044px #a2d9ff, 660px 435px #a2d9ff, 299px 678px #a2d9ff,
+	1193px 115px #a2d9ff, 918px 290px #a2d9ff, 1447px 1422px #a2d9ff,
+	91px 1273px #a2d9ff, 108px 223px #a2d9ff, 146px 754px #a2d9ff,
+	461px 1446px #a2d9ff, 1004px 391px #a2d9ff, 1529px 516px #a2d9ff,
+	1206px 845px #a2d9ff, 347px 583px #a2d9ff, 1102px 1332px #a2d9ff,
+	709px 1756px #a2d9ff, 1972px 248px #a2d9ff, 1669px 1344px #a2d9ff,
+	1132px 406px #a2d9ff, 320px 1076px #a2d9ff, 126px 943px #a2d9ff,
+	263px 604px #a2d9ff, 1546px 692px #a2d9ff;	 
+	animation: animBubbles 80s linear infinite;
+  }
+
+  @keyframes animBubbles{
+	0% {
+	  transform: translateY(0px);
+	}
+
+	100% {
+	  transform: translateY(-2000px);
+	}
+  }
